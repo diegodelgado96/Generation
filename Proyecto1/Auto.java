@@ -143,4 +143,35 @@ public class Auto {
     public void setTransmisionAutomatica (boolean transmisionAutomatica) {
         this.transmisionAutomatica = transmisionAutomatica;
     }
+
+    //Acciones
+    public void acelerar() {
+        if(velocidadActual < velocidadMaxima) {
+            velocidadActual++;
+            System.out.println("Acelerando. Velocidad: " + velocidadActual + " km/h");
+        } else {
+            System.out.println("Velocidad Máxima");
+        }
+    }
+
+    public void frenado() {
+        velocidadActual = 0;
+        System.out.println("Vehiculo detenido");
+    }
+
+    public void cambiarMarcha(int nuevaMarcha) {
+        if(nuevaMarcha > 0 && nuevaMarcha <= numeroMarchas) {
+            System.out.println("Cambiando a la marcha " + nuevaMarcha);
+        } else {
+            System.out.println("Marcha no válida");
+        }
+    }
+
+    public void reducirMarcha() {
+        if(numeroMarchas > 1) {
+            System.out.println("Reduciendo marcha");
+        } else {
+            System.out.println("No se puede reducir la marcha");
+        }
+    }
 }
