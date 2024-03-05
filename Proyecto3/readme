@@ -1,0 +1,10 @@
+Cree una clase llamada Empleado que incluya tres piezas de información como variables
+de instancia:
+    • Nombre (String)
+    • Apellido (String)
+    • Salario mensual (double)
+La clase debe tener un constructor y un método get y set para cada variable de instancia.
+Escriba una aplicación de prueba llamada EmpleadoTest que cree dos objetos Empleado y muestre
+el salario de cada objeto. Luego dé a cada empleado un aumento del 10 % y vuelva a mostrar el
+salario anual de cada empleado. Introducir en la clase Empleado una variable de clase capaz de
+contar el número de empleados que han pasado por la empresa hasta la fecha.
