@@ -2,13 +2,14 @@ package Proyecto1;
 
 //importamos la clase propietario
 import Proyecto1.Propietario;
+import Proyecto1.Marca;
 
 public class Auto {
     //Atributos
     private String modelo;
     private String color;
     private int anio;
-    private String marca;
+    private Marca marca;
     private String chasis;
     private Propietario propietario;
     private int velocidadMaxima;
@@ -22,7 +23,7 @@ public class Auto {
     public Auto(String modelo,
         String color,
         int anio,
-        String marca,
+        Marca marca,
         String chasis,
         Propietario propietario,
         int velocidadMaxima,
@@ -60,7 +61,7 @@ public class Auto {
         return anio;
     }
 
-    public String getMarca(){
+    public Marca getMarca(){
         return marca;
     }
 
@@ -108,7 +109,7 @@ public class Auto {
         this.anio = anio;
     }
 
-    public void setMarca (String marca) {
+    public void setMarca (Marca marca) {
         this.marca = marca;
     }
 
