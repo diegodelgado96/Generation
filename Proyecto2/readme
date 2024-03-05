@@ -1,0 +1,12 @@
+Desarrolle una clase de Java denominada Factura para una tienda de suministros informáticos.
+La clase debe contener cuatro variables:
+    • Número (String)
+    • Descripción (String)
+    • Cantidad comprada de un artículo (int)
+    • Precio por artículo (double).
+
+La clase debe tener un constructor y un método get y set para cada variable de instancia.
+Además, proporcione un método llamado getTotalFatura que calcule el monto de la factura y luego
+devuelva el monto como un double. Si el valor no es positivo, debe ser establecido en 0. Si el
+precio por artículo no es positivo, debe establecerse en 0.0. Escriba una aplicación de prueba
+llamada FacturaTest (en otro archivo) que demuestre las capacidades de la clase Factura.
