@@ -1,0 +1,45 @@
+1- Implementar una clase Propietario
+2- Declarar los siguientes atributos en la clase
+    • Nombre
+    • Fecha de nacimiento
+    • Calle
+    • Barrio
+    • Ciudad
+3- Encapsular los atributos de la clase Propietario
+4- Los atributos son obligatorios (crear un constructor con estos parámetros)
+5- Implementar una clase de Auto
+6- Declarar los siguientes atributos en la clase:
+    • Modelo
+    • Color
+    • Año
+    • Marca
+    • chasis
+    • Propietario
+    • Velocidad máxima
+    • velocidad actual
+    • número de puertos
+    • ¿Tienes un techo solar?
+    • Número de marchas
+    • Tiene transmisión automática
+7- Encapsular la clase Vehículo y sus atributos;
+8- Implementar el método de aceleración que aumenta la velocidad de 1 en 1 km/h;
+9- Implementar el método de frenado que detiene el automóvil – Velocidad = 0
+km/h; 
+10- Implementar el método de cambio de marcha;
+11- Implementar el método reduce la marcha;
+12- Cambiar la clase Propietario para que el atributo Dirección se convierta en una
+clase; 
+13- Encapsula los atributos de la clase Dirección
+14- La dirección del propietario no puede estar vacía (cámbiela en el constructor para recibir
+la dirección);
+15- Todo vehículo debe tener un dueño (implementar un constructor de Vehículo que pase
+al propietario como parámetro);
+16- No se puede engranar la marcha atrás si la velocidad supera los 0 km/h; 
+17- Implementar un
+método que calcule la autonomía de viaje del vehículo en base al consumo medio pasado como
+parámetro;
+18- Implementar un método para mostrar el volumen de combustible
+19- Transformar el atributo marca de un auto en una clase Marca con nombre, nrDeModelos,
+año de lanzamiento y código identificador
+20- Instanciar un objeto de clase Coche, Persona, Dirección, Marca y relacionar los objetos
+usando métodos o constructores cuando sea necesario.
