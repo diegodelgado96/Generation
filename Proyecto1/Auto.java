@@ -168,10 +168,20 @@ public class Auto {
     }
 
     public void reducirMarcha() {
-        if(numeroMarchas > 1) {
+        if(numeroMarchas > 1 && velocidadActual > 0) {
             System.out.println("Reduciendo marcha");
         } else {
             System.out.println("No se puede reducir la marcha");
+        }
+    }
+
+    public double calcularAutonomia(double consumoMedio) {
+        if(consumoMedio > 0) {
+            return (double)((1/consumoMedio)*100);
+        }
+        else {
+            System.out.println("El consumo debe ser mayor a cero.");
+            return 0;
         }
     }
 }
